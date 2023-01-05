@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .main{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .navbar-nav{
+            border: 2px solid whitesmoke;
+            width: 100%;
+            margin: 0px;
+            background-color: rgb(255, 255, 255);
+        }
+        .footer-item{
+            text-align: center;
+            border-radius: 5px;
+            margin: 0px;
+        }
+        .main-content{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 25px;
+            color: aliceblue;
+        }
+        .infor-item{
+            margin-top: 5px;
+            font-size: 30px;
+        }
+        .footer-main{
+            margin: 00px;
+            border-radius: 5px solid;
+            color: black;
+        }
+        .name-layout{
+            width: 100%;
+            height: fit-content;
+            border: 1px solid;
+        }
+        .name{
+            width: 100%;
+            height: fit-content;
+            border: 1px solid;
+        }
+        .icon-bar{
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 p-3 bg-dark text-white">
+                    <!-- <div class="name-layout">
+                        <p style="font-size: 25px;">Admin</p>
+                    </div>
+                    <div class="name">
+                        <p style="font-size: 25px;">Phạm Văn Dự</p>
+                    </div> -->
+                    <ul class="list-group">
+                        <li style="background-color: black; color: aliceblue;" class="list-group-item">Admin</li>
+                        <li style="background-color: black; color: aliceblue;" class="list-group-item">Phạm Văn Dự</li>
+                        
+                      </ul>
+                    <div style="margin-top:20px; border-radius: 2px solid aliceblue;" class="searching">
+                        <input type="search" placeholder="Search" style="width:280px;height: 30px; background-color: black;">
+                        <img style="height: 20px; width: 20px;" src="https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_960_720.png" alt="">
+                    </div>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" style="width:100%; margin-top: 5px; text-align: left;" >
+                          Trang chủ
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Link 1</a></li>
+                          <li><a class="dropdown-item" href="#">Link 2</a></li>
+                          <li><a class="dropdown-item" href="#">Link 3</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" style="width:100%; margin-top: 5px; text-align: left;" >
+                          Quản lý sản phẩm
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Sản phẩm A</a></li>
+                          <li><a class="dropdown-item" href="#">Sản phẩm B</a></li>
+                          <li><a class="dropdown-item" href="#">Sản phẩm C</a></li>
+                        </ul>
+                    </div>
+                    <div style="margin: 5px;" class="list">
+                        <input type="radio" name="" id="List">
+                        <label for="List">Danh sách</label>
+                    </div>
+                </div>
+               
+                <div class="col-sm-9 p-3 bg-light text-black">
+                    <nav class="navbar navbar-expand-sm bg-light">
+                        <div class="container-fluid">
+                          <!-- Links -->
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="#"><i style="width:20px;height: 20px; margin-top: 19px; margin-left: 5px;" class="fa fa-bars"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Trang chủ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Đăng xuất</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#"><img style="height: 35px; width: 35px; margin-left: 600px; margin-top: 9px;" class="nav-link" src="https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_960_720.png" alt=""></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div style="margin:0px 25px" class="second-par">
+                        <div class="row">
+                            <div class="col-12 col-md-9 bg-light">
+                                <p style="font-size: 20px;">Trang chủ</p>
+                            </div>
+                            <div style="text-align: right;" class="col-12 col-md-3 bg-light">
+                                <a style="text-decoration: none;" href="#">Trang chủ</a>
+                            </div>
+                        </div>
+                        <!-- <table style="margin: 12px;">
+                            <tr>
+                                <td style="font-size: large; font-weight: 700;">Trang chủ</td>
+                                <td><a style="text-decoration: none;margin-left: 810px;" href="#">Trang chủ</a></td>
+                            </tr>
+                        </table> -->
+                    </div>
+                    <div class="main-content">
+                        <div class="row">
+                            <div style="border-radius: 5px;" class="col-12 col-md-3 bg-primary">
+                                <div class="box box1">
+                                    <div class="infor-item">
+                                        <p>150</p>
+                                    </div>
+                                    <div class="name-item">
+                                        <p>New Orders</p>
+                                    </div>
+                                    <div style="background-color: rgb(39, 92, 192);" class="footer-item">
+                                        <a style="text-decoration: none; color: black;" href="#">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="border-radius: 5px;" class="col-12 col-md-3 bg-success">
+                                <div class="box box2">
+                                    <div class="infor-item">
+                                        <p>53%</p>
+                                    </div>
+                                    <div class="name-item">
+                                        <p>Bounce Rate</p>
+                                    </div>
+                                    <div style="background-color: rgb(67, 117, 52);" class="footer-item">
+                                        <a style="text-decoration: none;color: black;" href="#">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="border-radius: 5px;" class="col-12 col-md-3 bg-warning">
+                                <div style="color: black;" class="box box3">
+                                    <div class="infor-item">
+                                        <p>44</p>
+                                    </div>
+                                    <div class="name-item">
+                                        <p>User Registrations</p>
+                                    </div>
+                                    <div style="background-color: rgb(240, 187, 42); color:black;" class="footer-item">
+                                        <a style="text-decoration: none; color: black;" href="#">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="border-radius: 5px;" class="col-12 col-md-3 bg-danger">
+                                <div class="box box4">
+                                    <div class="infor-item">
+                                        <p>65</p>
+                                    </div>
+                                    <div class="name-item">
+                                        <p>Unique Visitors</p>
+                                    </div>
+                                    <div style="background-color: rgb(243, 44, 54);" class="footer-item">
+                                        <a style="text-decoration: none;color: black;" href="#">More Info</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>---</p>
+                        <p>---</p>
+                        <p>---</p>
+                        <p>---</p>
+                        <p>---</p>
+                        <p>---</p>
+                       <p>---</p>
+                       <p>---</p>
+                    </div>
+                    <nav class="navbar navbar-expand-sm bg-light">
+                        <div class="container-fluid">
+                            <ul style="margin-bottom:-60px" class="navbar-nav">
+                                <li class="nav-item">
+                                    <p>Copyright @2022</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
